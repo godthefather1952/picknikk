@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+/* Hide scrollbar for nav tabs */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Code blocks */
+code {
+  font-family: "JetBrains Mono", "Fira Code", "Cascadia Code", monospace;
+}
+
+/* Smooth transitions */
+* {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Custom selection color */
+::selection {
+  background-color: rgba(59, 130, 246, 0.3);
+  color: white;
+}
